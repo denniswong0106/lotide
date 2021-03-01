@@ -6,10 +6,10 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// function will take first item in array and output item 
+// function will take first item in array and output item
 const head = array => {
-  return array[0]
-}
+  return array[0];
+};
 
 // test cases
 assertEqual(head([5,6,7]), 5);
