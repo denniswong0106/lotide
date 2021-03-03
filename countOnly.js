@@ -1,4 +1,4 @@
-// the function will take an array of stuff, and an object, sort through array 
+// the function will take an array of stuff, and an object, sort through array
 // using the object as a sorter of what we want
 
 const assertEqual = function(actual, expected) {

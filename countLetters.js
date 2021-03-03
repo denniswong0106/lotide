@@ -10,9 +10,9 @@ const assertEqual = function(actual, expected) {
 // and value of how many times the letter was found in the string given.
 
 const countLetters = str => {
-  output = {};
+  let output = {};
 
-  for (letter of str) {
+  for (const letter of str) {
     if (output[letter]) {
       output[letter] ++;
     } else {
@@ -20,11 +20,11 @@ const countLetters = str => {
     }
   }
   return output;
-}
+};
 
-sentence1 = 'hello darkness my old friend';
-sentence2 = `I don't like the dark`;
-sentence3 = 'hahahahahahahaha';
+const sentence1 = 'hello darkness my old friend';
+const sentence2 = `I don't like the dark`;
+const sentence3 = 'hahahahahahahaha';
 
 console.log(countLetters(sentence1));
 console.log(countLetters(sentence2));
