@@ -9,28 +9,6 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-
-const eqArrays = (actualArr, expectedArr) => {
-  if (actualArr.length !== expectedArr.length) {
-    return false;
-  } else {
-    for (let i = 0; i < actualArr.length; i++) {
-      if (actualArr[i] !== expectedArr[i]) {
-        return false;
-      }
-    }
-  }
-  return true;
-};
-
-const assertArraysEqual = (actualArr, expectedArr) => {
-  if (eqArrays(actualArr, expectedArr)) {
-    console.log(`🤟🤟🤟Assertion Passed: ${actualArr} === ${expectedArr}`);
-  } else {
-    console.log(`😡😡😡Assertion Failed: ${actualArr} !== ${expectedArr}`);
-  }
-};
-
 const countOnly = function(allItems, itemsToCount) {
   const results = {};
 
