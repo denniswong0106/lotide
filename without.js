@@ -30,7 +30,7 @@ const without = (originalArr, removeArr) => {
       }
     }
     if (removeBoolean === false) {
-      outputArr.push(element)
+      outputArr.push(element);
     } else {
       removeBoolean = false;
     }
