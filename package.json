@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@denniswong0106/lotide",
   "version": "1.0.0",
-  "description": "A library of useful functions",
-  "main": "README.MD",
+  "description": "A mini clone library of lodash. Created for educational purposes.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
