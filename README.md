@@ -16,7 +16,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Require it:**
 
-`const _ = require('@denniswong0106/lotide');`
+`const _ = require('@username/lotide');`
 
 **Call it:**
 
