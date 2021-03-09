@@ -35,3 +35,18 @@ The following functions are currently implemented:
 * `findKeyByValue(obj, keyvalue)`: description: A search function which looks through the object with the given key value. If the key value has a match, returns the value assigned to key. If no match, returns undefined.
 * `countOnly(arrayOfItems, ObjectOfSearchItems)`: description: A filter function which takes two arguments, an array of items, and an object of search items, in the format of {itemName: true/false}. The function takes the itemName, if value assigned to itemName is true, function searches through the arrayOfItems, and counts how many occurances of itemName is found. An object with the number of each itemName given with be outputted.
 * `countLetters(string)`: description: A function which loops through each letter of a given string, and outputs an object with each letter as a key, and the number of times found in the string as the value.
+
+
+
+## Future Functions to Refactor:
+
+* `map()`
+* `findKey()`
+* `letterPositions()`
+* `takeUntil()`
+* `without()`
+* 
+* 
+* 
+* 
+* 
